@@ -32,9 +32,7 @@ export const Introduction = () => {
                 <span className="different">
                   Indian Institute of Technology (IIT-BHU), Varanasi (UP)
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                .
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
               <h4 className="different">
