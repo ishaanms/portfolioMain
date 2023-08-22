@@ -32,6 +32,42 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           
+        <VerticalTimelineElement
+            date={"May 2023 - Jul 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              DAAD-WISE Summer Intern
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+               Technische Universität Darmstadt
+            </h4>
+            <p data-aos="fade-right">
+            Studying computational techniques like all-atomistic molecular dynamics and 
+            coarse- grained modelling to create programs for analysing the structural and dynamical properties for simple hydrocarbon molecules.
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"May 2022 - Aug 2022"}
             contentStyle={{
